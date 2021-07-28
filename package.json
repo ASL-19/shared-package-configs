@@ -1,6 +1,6 @@
 {
   "name": "@asl-19/shared-package-configs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Shared package configs for ASL19 projects",
   "author": {
     "name": "Grant Heaslip",
@@ -15,11 +15,6 @@
     "tsconfig-cjs.json",
     "tsconfig-esm.json"
   ],
-  "engines": {
-    "node": "16.x",
-    "npm": "7.x",
-    "yarn": "This project uses NPM (see README.markdown)"
-  },
   "scripts": {
     "check-types": "npx tsc --project .",
     "eslint": "eslint . --ext js,ts",
