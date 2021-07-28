@@ -1,0 +1,20 @@
+{
+  "files.associations": {
+    "api-extractor.json": "jsonc"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true,
+  "eslint.validate": ["javascript", "typescript"],
+  "cSpell.words": ["Heaslip", "rushstack", "tsdoc", "unscoped"],
+  "markdown.extension.toc.levels": "2..6",
+  "search.exclude": {
+    "CHANGELOG.markdown": true,
+    "LICENSE": true,
+    "package-lock.json": true
+  },
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
