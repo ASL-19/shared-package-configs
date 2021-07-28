@@ -1,6 +1,6 @@
 {
   "name": "@asl-19/shared-package-configs",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Shared package configs for ASL19 projects",
   "author": {
     "name": "Grant Heaslip",
