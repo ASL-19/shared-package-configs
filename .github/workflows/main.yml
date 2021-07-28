@@ -1,7 +1,7 @@
 on: push
 
 jobs:
-  lint-and-build:
+  lint-and-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -12,6 +12,9 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 16.x
+
+      - name: Install dependencies
+        run: npm install
 
       - name: Run lint-and-test
         run: npm run lint-and-test
