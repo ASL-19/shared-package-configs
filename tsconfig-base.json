@@ -5,6 +5,7 @@
     "declaration": true,
     "declarationMap": true,
     "esModuleInterop": true,
+    "incremental": true,
     "jsx": "react",
     "moduleResolution": "Node",
     "noImplicitAny": true
