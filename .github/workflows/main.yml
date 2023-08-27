@@ -1,20 +1,12 @@
 on: push
 
 jobs:
-  lint-and-test:
-    runs-on: ubuntu-latest
-
+  lint-test:
+    runs-on: ubuntu-22.04
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Use Node.js 16.x
-        uses: actions/setup-node@v1
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: 16.x
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run lint-and-test
-        run: npm run lint-and-test
+          node-version-file: .node-version
+      - run: npm install
+      - run: npm run lint-test
