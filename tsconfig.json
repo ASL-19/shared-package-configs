@@ -1,9 +1,7 @@
 {
+  "extends": "./tsconfig-base.json",
   "compilerOptions": {
-    "checkJs": true,
-    "noEmit": true,
-    "target": "es2015",
-    "moduleResolution": "Node"
+    "outDir": "dist"
   },
   "exclude": ["node_modules"],
   "include": [".*.js", "*.js"]
