@@ -1,5 +1,9 @@
 # @asl-19/shared-package-configs changelog
 
+## [0.3.0](https://github.com/ASL-19/shared-package-configs/pulls?q=is%3Apr+milestone%3A0.3.0) [2023-08-30]
+
+- Added strict flag to tsconfig-base.json [[#16](https://github.com/ASL-19/shared-package-configs/pull/16)]
+
 ## [0.2.1](https://github.com/ASL-19/shared-package-configs/pulls?q=is%3Apr+milestone%3A0.2.1) [2023-08-27]
 
 - Changed `api-extractor` entry point back to `dist/esm/index.d.ts` (from `dist/index.d.ts`) [[#14](https://github.com/ASL-19/shared-package-configs/pull/14)]

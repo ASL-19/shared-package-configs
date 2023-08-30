@@ -9,6 +9,7 @@
     "jsx": "react",
     "moduleResolution": "Node",
     "noImplicitAny": true,
+    "strict": true,
     "target": "ES2019"
   }
 }
